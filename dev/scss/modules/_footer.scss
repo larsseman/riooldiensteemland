@@ -1,0 +1,50 @@
+.Footer {
+	background-color: $c-greydark;
+	border-top: 2px solid white;
+	padding: 30px 0 10px;
+}
+
+.Footer-inner {
+
+	p,strong {
+		line-height: 15px;
+		color: white;
+	}
+	h4 {
+		color: white;
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 20px;
+		margin: 10px 0 0 0;
+	}
+	
+	select.menu {
+		border: 0px solid;
+		background-color: white;
+		border-radius: 5px;
+		width: 170px;
+		padding: 1px 10px;
+	}
+}
+
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+
+.Socket {
+	text-align: center;
+	p,a {
+		font-weight: 600;
+		line-height: 10px;
+	}
+	a:hover {
+		text-decoration: none;
+		opacity: 0.7;
+	}
+}

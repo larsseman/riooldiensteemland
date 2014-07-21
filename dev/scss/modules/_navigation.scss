@@ -1,0 +1,133 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+.Navigation {
+  text-align: center;
+}
+
+
+.Navigation-link.is-active {
+
+}
+
+.Navigation-listItem {
+  display: inline;
+//  margin: 0 rem(15px);
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+// ----- Navigation link ----- //
+
+.Navigation-link {
+  text-transform: uppercase;
+}
+
+.Navigation-link--invertedBold {
+  color: $c-white; 
+  font-weight: bold;
+}
+
+
+
+.Top-Nav { 
+	height: 140px;
+	background-color: white;
+	
+	.Logo, .Logo-2 {
+		float: left;
+	}
+	.Logo {
+		padding-top: 15px;
+	}
+	.Logo-2 {
+		padding-top: 25px;
+		padding-left: 30px;
+	}
+	
+	.Top-contact {
+		float: right;
+		width: 250px;
+		padding: 0 30px;
+		
+		h6 {
+			text-align: right;
+			color: $c-red;
+			font-size: 20px;
+			line-height: 20px;
+			margin: 20px 0 13px;
+		
+		}
+		
+		a {
+			display: block;
+			text-align: right;
+			color: $c-greydark;
+			line-height: 10px;
+			font-size: 17px;
+			margin: 0;
+
+			&:hover {
+				opacity: 0.7;
+				-webkit-transition:all 0.2s ease;
+				-moz-transition:all 0.2s ease;
+				-o-transition:all 0.2s ease;
+				
+			}
+		}
+	}
+}
+
+.Bot-Nav {
+	background-color: $c-red;
+	height: auto;
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+}
+
+.Navigation {
+	ul.Navigation-list {
+		margin: 0;
+		
+		li.Navigation-listItem {
+			margin: 0 -5px 0 0;
+			line-height: 50px;
+			padding: 15px 0;
+			border-left: 2px solid white;
+			
+			&:first-of-type {
+				border-left: 0px solid white;
+			}
+			
+			&:hover {
+				background-color: #fafafa;
+				-webkit-transition:all 0.2s ease;
+				-moz-transition:all 0.2s ease;
+				-o-transition:all 0.2s ease;
+				a.Navigation-link {
+					color: $c-red;
+					text-decoration: none;
+				}
+			}
+			
+			a.Navigation-link {
+				color: white;
+				font-size: 14px;
+				padding: 13px;
+				margin: 0;
+				font-weight: 600;
+				letter-spacing: 1.5px;
+			
+			}
+		}
+	}
+}
+
