@@ -7,25 +7,55 @@
 
 .Navigation-menuToggle  {
   display: block;
-  @media all and (min-width: 980px) {
+  @media all and (min-width: 1040px) {
     display: none;
   }
 }
 
 .Navigation-menuToggle {
-	//	background-color: white;
+	background-color: transparent;
+    border: 3px solid white;
 	cursor: pointer;
-    width: 60px;
-    height: 60px;
+	float: right;
+    width: 36px;
+    height: 36px;
+    border-radius: 7px;
+    margin-top: 7px;
 	
 	&:hover {
-		//	background-color: #fafafa;
+		background-color: rgba(255,255,255,0.2);
 	}
+}
+
+.Nav-toggle {
+.Icon.Icon--inline {
+	fill: white;
+	display: block;
+	margin: auto;
+	margin-top: 4px;
+	height: 25px;
+	width: 25px;
+
+}
 }
 
 
 #js-navCollapseTarget {
-  @media all and (max-width: 980px) {
-    display: none;
-  }
+	position: relative;
+	z-index: 999;
+	@media all and (max-width: 1040px) {
+		display: none;
+	}
+}
+
+@media all and (min-width: 1040px) {	
+	#js-navCollapse {
+		display: none;
+	}
+
+}
+@media all and (max-width: 1040px) {	
+	#js-navCollapse {
+		display: block;
+	}
 }

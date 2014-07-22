@@ -88,9 +88,10 @@
 
 .Bot-Nav {
 	background-color: $c-red;
-	height: auto;
+	height: 58px;
 	border-top: 4px solid white;
 	border-bottom: 4px solid white;
+	position: relative;
 }
 
 .Navigation {
@@ -132,6 +133,104 @@
 		}
 	}
 }
+.Mob-contact-ico {
+	display: none;
+}
 
+//======================================================
+//          @media queries - Responsiveness
+//======================================================
 
+@media all and (max-width: 1040px) {
+	.Bot-Nav {
+		height: auto;
+		min-height: 58px;
+	}
+	
+	.Top-contact {
+		display: none;
+	}
+	
+	.Navigation {	
+		position: relative;
+		ul.Navigation-list {
+			margin-top: 60px;
+			position: absolute;
+			li.Navigation-listItem {
+				display: block;
+				line-height: 30px;
+				border-left: 0 solid;
+				
+				&:last-of-type {
+					margin-bottom: 15px;
+				}
+				
+				&:hover {
+					background-color: $c-grey;
+	
+					-webkit-transition:all 0.2s ease;
+					-moz-transition:all 0.2s ease;
+					-o-transition:all 0.2s ease;
+					a.Navigation-link {
+						color: $c-red;
+						text-decoration: none;
+	
+					}
+				}
+				
+				a.Navigation-link {
+					color: white;
+					font-size: 14px;
+					padding: 13px;
+					margin: 0;
+					font-weight: 600;
+					letter-spacing: 1.5px;
+				
+				}
+			}
+		}
+	}
+	
+	
+	.Mob-contact-ico {
+		display: block;
+		z-index: 5000;
+				
+		a { 
+			border: 2px solid white;
+			position: absolute;
+			display: block;
+			width: 35px;
+			height: 35px;
+			border-radius: 7px;
+			top: 8px;
+			background-color: transparent;
+			.Icon--inline {
+				fill: white;
+				width: 2em;
+				height: 2em;
+				padding-bottom: 1em;
+			}
+		}
+		.telsvg {
+			left: 10px;				
+			.Icon--inline {
+				margin: -4px;
+			}
+		}
+		
+		.tel2svg {
+			left: 55px;				
+			.Icon--inline {
+				margin: -5px;
+			}
+		}
 
+		.mailsvg {
+			left: 100px;				
+			.Icon--inline {
+				margin: -6px;
+			}
+		}
+	}
+}

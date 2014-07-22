@@ -53,9 +53,11 @@ Template Name: Homepage
 							<div class="header-contact">
 								<h3>Heeft u nog vragen?</h3>
 								<p>Neem dan hier vrijblijven contact op</p>
-								<div class="Button meer-info">
-									Contact
-								</div>
+								<a href="/contact/">
+									<div class="Button meer-info">
+										Contact
+									</div>
+								</a>
 							</div>
 						</div><!-- u-gridCol4 -->
 
@@ -117,7 +119,7 @@ Template Name: Homepage
 				
 				<div class="red-bg">
 					<h3>U kunt bij ons mobiel pinnen!</h3>
-					<a href="#">
+					<a href="">
 						<div class="Button meer-info">
 							Meer informatie
 						</div>
