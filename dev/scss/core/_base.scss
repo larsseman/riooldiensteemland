@@ -39,6 +39,8 @@ h1, %u-textH1 {
 
 h2, %u-textH2 {
   font-size: rem(35px);
+  color: $c-red;
+  letter-spacing: 1px;
 }
 
 h3, %u-textH3 {
