@@ -68,7 +68,7 @@ Template Name: Homepage
 				<div class="u-gridContainer">
 					<h3>Een verstopt riool in Eemland is snel verholpen</h3>
 					<p>Amerongen Rioolbeheer, actief in het midden van Nederland en is uw specialist voor het ontstoppen, reinigen, aanleggen en inspecteren van uw riolering. Door kennis, ervaring en modern apparatuur, klaren wij uw rioolproblemen snel en deskundig!</p>
-					<h3 style="font-size: 18px;">Ernstige verstoppingen worden door ons zeer snel verholpen!</h3>
+					<h3 class="h3-home">Ernstige verstoppingen worden door ons zeer snel verholpen!</h3>
 				</div>
 				
 				<div class="red-bg more">
@@ -94,18 +94,18 @@ Template Name: Homepage
 				
 				<div class="grey-bg">
 					<div class="u-gridContainer">
-						<div class="u-gridCol4">
+						<div class="u-gridCol4 Coll-4">
 							<h3>Specialisme</h3>
 							<p>Wij zijn in tegenstelling tot bijvoorbeeld een loodgieter en installatiebedrijf volledig gespecialiseerd in alle voorkomende rioleringswerkzaamheden. Hierdoor kunt u niet alleen voor een rioolontstopper of riool reiniging bij ons terecht, maar ook voor alle bijkomende reparaties en vervangingen van het riool.</p>
 						</div>
 
-						<div class="u-gridCol4">
-							<h3 style="visibility: hidden;">Specialisme</h3>
+						<div class="u-gridCol4 Coll-4">
+							<h3 class="vis-hidden">Specialisme</h3>
 							<p>Het ontstoppen, aanleggen, onderhouden en vervangen van rioleringen zijn onze specialisme. Om rioolproblemen snel en vakkundig te verhelpen, beschikken wij over een team rioolspecialisten. Ook beschikken wij over de nieuwste apparatuur om de problemen in de onzichtbare buizenwereld snel op te sporen en te verhelpen.</p>
 						</div>
 
-						<div class="u-gridCol4">
-							<h3 style="visibility: hidden;">Specialisme</h3>
+						<div class="u-gridCol4 Coll-4">
+							<h3 class="vis-hidden">Specialisme</h3>
 							<p>Een verstopping of storing komt altijd onverwacht en altijd ongelegen. Daarom hebben wij 24 uur per dag en 7 dagen per week een servicemonteur beschikbaar. Deze monteur beschikt over een bus met hogedrukunit, frees- en veerapparatuur, handgereedschap alsmede materialen ten behoeve van het verrichten van kleine (nood)reparaties.</p>
 						</div>
 					</div><!-- u-gridContainer -->

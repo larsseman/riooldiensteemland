@@ -20,7 +20,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
 
     <!-- build:remove:expanded -->
@@ -45,13 +45,17 @@
 
 	<div class="Top-Nav">
 		<div class="u-gridContainer">
-			<div class="Logo">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo-1.jpg">
+			
+			<div class="Logos-wrap">
+				<div class="Logo">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo-1.jpg">
+				</div>
+				
+				<div class="Logo-2">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo-2.jpg">
+				</div>
 			</div>
 			
-			<div class="Logo-2">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo-2.jpg">
-			</div>
 			
 			<div class="Top-contact">
 				<div class="Top-h6">

@@ -1,8 +1,20 @@
-.Content {
-
+.vis-hide-temp img {
+	visibility: hidden;
+	@media all and (max-width: 1040px) {
+		display: none;
+	}
 }
 
+
+
 .Content-entry {/*----------- Content-entry ---------*/
+
+.h3-home {
+	font-size: 16px;
+}
+
+
+
 
 .Home-bulletpoints {
 	background-color: $c-grey;
@@ -205,7 +217,9 @@ li.check::before {
 
 }/*----------- Content-entry ---------*/
 
-
+.vis-hidden {
+	visibility: hidden;
+}
 
 
 
@@ -216,6 +230,7 @@ li.check::before {
 label.gfield_label {
 	font-weight: 400 !important;
 }
+
 
 input.gform_button {
 	background-color: $c-red;
@@ -241,12 +256,12 @@ input.gform_button {
 .ginput_container {		
 	input, textarea {
 		background-color: white;
-		border-radius: 7px;
-		border: 2px solid $c-red;
+		border-radius: 5px;
+		border: 1px solid $c-red;
 		color: $c-red;
 		font-size: 14px !important;
 		padding-left: 5px !important;
-		
+
 		&:hover, &:focus {
 			background-color: rgba(240, 122, 12, 0.02);
 		}
@@ -321,3 +336,117 @@ select.menu {
 	}
 }
 
+
+.App-iphone {
+	float: left;
+	max-width: 300px;
+}
+
+.App-google {
+	float: left;
+	max-width: 200px;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+
+.App-down {
+	display: block;
+	float: left;
+	width: 180px;
+	margin-top: 20px;
+}
+
+.qr-code img{
+	float: left;
+	max-width: 240px;
+	margin-top: 30px;
+}
+
+.App-wrapper {
+	max-width: 600px;
+}
+
+
+@media all and (max-width: 1040px) {
+	h3 {
+		font-size: 1.3rem;
+	}
+
+	.Content-entry {	
+		.red-bg {
+			h3 {
+				font-size: 18px;
+			}
+			span {
+				font-size: 22px;
+			}
+			
+			.span-mid-align {
+				width: auto;
+				text-align: center;
+							
+				.Icon--inline {
+					height: 2em;
+					width: 2em;
+				}
+			}
+		}
+	}
+}/* Media */
+
+@media all and (max-width: 1040px) {
+	.Coll-8, .adress, .adress-map {
+		@include span-columns(12);
+	}
+	.adress {
+		padding-bottom: 20px;
+	}
+
+	.Sidebar {
+		display: none;
+	}
+}
+
+
+@media all and (max-width: 750px) {
+	.Coll-4 {
+		@include span-columns(12);
+	}
+	
+	.vis-hidden {
+		display: none;
+	}
+
+}
+
+@media all and (max-width: 630px) {
+	.Content-entry {	
+		.red-bg {
+			h3 {
+				font-size: 16px;
+				margin-bottom: 15px;
+			}
+			span {
+				font-size: 16px;
+			}
+			.span-mid-align {			
+				.Icon--inline {
+					height: 1.2em;
+					width: 1.2em;
+					padding-bottom: 0.7px;
+					fill: white;
+					margin-bottom: 4px;
+
+				}
+			}
+		}
+
+		.mar-left-10 {
+			margin-left: 0;
+		}	
+	}
+	
+	.ginput_container input {
+		width: 100% !important;
+	}
+}

@@ -39,6 +39,9 @@
 	@include span-columns(3);
 	@media screen and(max-width: 980px){
 		@include span-columns(12);
+		padding: 20px;
+		border-bottom: 1px solid #959595;
+		text-align: center;
 	}
 }
 
@@ -60,4 +63,29 @@
 		text-decoration: none;
 		opacity: 0.7;
 	}
+}
+
+
+@media all and (max-width: 980px) {
+	#text-3, #nav_menu-2 {
+		width: 100%;
+	}
+	#nav_menu-2 {
+		border-bottom: 0 solid white;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.Socket p {
+		line-height: 18px;
+		font-size: 12px;
+	}
+
+	.Footer-inner {
+		a {
+			color: #BFBFBF;
+			font-style: italic;
+		}
+	}
+
 }
