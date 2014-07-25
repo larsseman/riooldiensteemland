@@ -118,7 +118,11 @@ Template Name: Homepage
 				
 				
 				<div class="red-bg">
-					<h3>U kunt bij ons mobiel pinnen!</h3>
+					<div class="mobiel-pinnen-div">
+						<h3>U kunt bij ons mobiel pinnen!</h3>
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/svg's/mobiel_pinnen.svg">
+					</div>
+					
 					<a href="">
 						<div class="Button meer-info">
 							Meer informatie
