@@ -117,7 +117,7 @@ Template Name: Homepage
 				</div><!-- u-gridContainer -->
 				
 				
-				<div class="red-bg">
+				<div class="red-bg extra-div">
 					<div class="mobiel-pinnen-div">
 						<h3>U kunt bij ons mobiel pinnen!</h3>
 						<img src="<?php echo get_stylesheet_directory_uri();?>/img/svg's/mobiel_pinnen.svg">
