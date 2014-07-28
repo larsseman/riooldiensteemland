@@ -127,6 +127,9 @@
 		margin: 0 auto;
 		display: block;
 		width: 600px;
+		@media screen and (-webkit-min-device-pixel-ratio:0) {
+			width: 602px;			
+		}
 		
 		a:hover {
 			opacity: 0.7;

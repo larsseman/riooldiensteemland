@@ -36,19 +36,34 @@ h4, h5, h6 {
 h1, %u-textH1 {
   font-size: rem(40px);
 }
-
+//-----------------------------
 h2, %u-textH2 {
-  font-size: rem(35px);
+  font-size: rem(25px);
   color: $c-red;
   letter-spacing: 1px;
 }
 
+.pagetitle h2 {
+  font-size: rem(35px);
+}
+
+.page-id-5 {  
+  h3 {
+  	color: $c-red;
+  }
+	
+}
+//--------------------------------
 h3, %u-textH3 {
   font-size: rem(25px);
-  color: $c-red;
+  color: $c-greydark;
   font-weight: 600;
   margin: 25px 0 0;
   letter-spacing: 1px;
+}
+
+.Sidebar h3 {
+	color: $c-red;
 }
 
 h4, %u-textH4 {

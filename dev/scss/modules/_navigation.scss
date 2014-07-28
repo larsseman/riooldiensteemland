@@ -153,6 +153,13 @@
 //======================================================
 //          @media queries - Responsiveness
 //======================================================
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.Navigation ul.Navigation-list li.Navigation-listItem {
+		line-height: 50px;
+		padding: 16px 0;
+	}
+}
+
 
 @media all and (max-width: 1040px) {
 	.Bot-Nav {

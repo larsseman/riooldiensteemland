@@ -83,8 +83,9 @@
 
 .Page-title {
 	text-align: center;
-	padding: 10px 0;
+	padding: 10px 0 15px;
 	background-color: white;
+	border-bottom: 4px solid $c-red;
 	h2 {
 		color: $c-red;
 		text-transform: uppercase;
@@ -100,5 +101,12 @@
 		font-size: 18px;
 		line-height: 10px;		
 		letter-spacing: 1px;
+	}
+}
+
+.page-id-5 {	
+	.Page-title {
+		padding: 10px 0;
+		border-bottom: 0px solid;
 	}
 }
