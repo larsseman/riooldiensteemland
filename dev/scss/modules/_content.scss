@@ -173,7 +173,26 @@
 }
 
 
+.sidebar-contact {
+	padding: 20px;
+	border: 4px solid $c-red;
+	h3 {
+		font-size: 14px;
+	}	
+	&:hover {
+		text-decoration: none !important;
+	}
+}
+
+}/*----------- Content-entry ---------*/
+
+.vis-hidden {
+	visibility: hidden;
+}
+
+//-----------------------------
 /* Vinkje gedeelte header */
+//-----------------------------
 
 .points-box {
 	margin-top: -18px
@@ -229,22 +248,21 @@ li.check::before {
 
 }
 
+
 .sidebar-contact {
-	padding: 20px;
-	border: 4px solid $c-red;
-	h3 {
-		font-size: 14px;
-	}	
+	.points-box {
+		margin-top: 0;
+		text-align: left;
+		
+		li {
+			font-size: 14px;
+			
+		}
+	}
 }
 
-}/*----------- Content-entry ---------*/
 
-.vis-hidden {
-	visibility: hidden;
-}
-
-
-
+// -----------------------------------------
 
 
 // ------------ form styles --------------
