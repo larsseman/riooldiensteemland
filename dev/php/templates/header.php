@@ -45,17 +45,23 @@
 
 	<div class="Top-Nav">
 		<div class="u-gridContainer">
-			
+
+
 			<div class="Logos-wrap">
-				<div class="Logo">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo-1.jpg">
-				</div>
+				<a class="top-logo-hover" href="/home/">
+					<div class="Logo">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo-1.jpg">
+					</div>
+				</a>
 				
-				<div class="Logo-2">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo-2.jpg">
-				</div>
+				<a class="top-logo-hover" href="/home/">
+					<div class="Logo-2">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo-2.jpg">
+					</div>
+				</a>
+				
 			</div>
-			
+
 			
 			<div class="Top-contact">
 				<div class="Top-h6">
@@ -72,6 +78,7 @@
 				  <p>06 - 536 22 040</p>
 				</a>
 			</div><!-- Top-contact -->
+		
 		</div>
 	</div><!-- Top-Nav -->
 	

@@ -37,6 +37,14 @@
 }
 
 
+.top-logo-hover .Logo:hover, .top-logo-hover .Logo-2:hover  {
+	opacity: 0.7;
+	-webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	
+}
+
 
 .Top-Nav { 
 	height: 140px;
