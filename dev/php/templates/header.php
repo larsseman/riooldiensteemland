@@ -96,19 +96,19 @@
 		    <?php include 'includes/navigation.php'; ?>
 		    
 		    <div class="Mob-contact-ico">
-				<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0102234786">
+				<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0332999968">
 					<svg class="Icon Icon--inline" viewBox="0 0 128 128">
 						<use xlink:href="#icon-phone"></use>
 					</svg>
 				</a>
 			
-				<a class="Button Button--transparent u-textInverted u-noLine tel2svg" href="tel:0622207355">
+				<a class="Button Button--transparent u-textInverted u-noLine tel2svg" href="tel:0653622040">
 					<svg class="Icon Icon--inline" viewBox="0 0 128 128">
 						<use xlink:href="#icon-mobile"></use>
 					</svg>
 				</a>
 			
-				<a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@abt-installaties.nl">
+				<a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:rioolbeheer@amerongen.info">
 					<svg class="Icon Icon--inline" viewBox="0 0 128 128">
 						<use xlink:href="#icon-envelope"></use>
 					</svg>
