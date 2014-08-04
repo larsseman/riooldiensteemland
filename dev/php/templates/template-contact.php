@@ -23,7 +23,7 @@ Template Name: Contactpage
 								<p>Groeneweg 2</p>
 								<p>3751LE Bunschoten</p>
 								<p>Email: rioolbeheer@amerongen.info</p>
-								<p>Tel: 033-2999968</p>
+								<p>Tel:  06 - 536 22 040</p>
 							</div>
 	
 						</div>					

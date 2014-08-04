@@ -65,6 +65,7 @@
 		float: right;
 		width: 250px;
 		padding: 0 30px;
+		margin-top: 20px;
 		
 		h6 {
 			text-align: right;
@@ -80,7 +81,7 @@
 			text-align: right;
 			color: $c-greydark;
 			line-height: 40px;
-			font-size: 20px;
+			font-size: 25px;
 			margin: 0;
 			font-weight: 600;
 
@@ -98,10 +99,10 @@
 			position: relative;
 			line-height: 20px;
 			img {
-				max-width: 35px;
 				position: absolute;
-				top: 2px;
-				left: -4px;
+				max-width: 45px;
+				top: -2px;
+				left: -45px;
 			}
 		}
 	}
@@ -258,15 +259,8 @@
 			}
 		}
 		
-		.tel2svg {
-			left: 55px;				
-			.Icon--inline {
-				margin: -5px;
-			}
-		}
-
 		.mailsvg {
-			left: 100px;				
+			left: 55px;				
 			.Icon--inline {
 				margin: -6px;
 			}

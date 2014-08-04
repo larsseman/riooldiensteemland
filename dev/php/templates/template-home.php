@@ -21,6 +21,7 @@ Template Name: Homepage
 						<div class="u-gridCol5">								
 							<div class="points-box">
 								<ul class="Usp-list">
+									<li class="icon check smaller">De verstopping word vaak dezelfde dag nog verholpen</li>
 									<li class="icon check">Meer dan 20 jaar een begrip in de regio</li>
 									<li class="icon check">Geen voorrijkosten bij verstoppingen</li>
 									<li class="icon check">Gebruik van professioneel apparatuur</li>
@@ -30,6 +31,8 @@ Template Name: Homepage
 									<li class="icon check">Laten alles schoon achter</li>
 									<li class="icon check">Mobiel pinnen mogelijk</li>
 									<li class="icon check">VCA gecertificeerd</li>
+
+
 								</ul>
 							</div>
 
@@ -74,14 +77,7 @@ Template Name: Homepage
 				<div class="red-bg more">
 					<div class="u-gridContainer">
 						<h3>Bel voor al u vragen en/of spoedgevallen</h3>
-						<div class="span-mid-align">
-							<a class="Button Button--transparent u-textInverted u-noLine" href="tel:0332999968">
-							  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
-								<use xlink:href="#icon-phone"></use>
-							  </svg>
-							  <span>033 - 299 99 68</span>
-							</a>
-				             
+						<div class="span-mid-align">				             
 							<a class="Button Button--transparent u-textInverted u-noLine mar-left-10" href="tel:0653622040">
 							  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
 								<use xlink:href="#icon-mobile"></use>

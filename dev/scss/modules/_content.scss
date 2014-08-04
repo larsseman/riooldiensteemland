@@ -128,13 +128,7 @@ p {
 	}
 	
 	.span-mid-align {
-		margin: 0 auto;
-		display: block;
-		width: 600px;
-		@media screen and (-webkit-min-device-pixel-ratio:0) {
-			width: 602px;			
-		}
-		
+	text-align: center;		
 		a:hover {
 			opacity: 0.7;
 			
@@ -244,6 +238,10 @@ li.icon.check {
 	font-weight: 600;
 	color: $c-greydark;
 }
+li.icon.check.smaller {
+	font-size: 15px;
+}
+
 
 li.check::before {
 	background-image: url('../img/vinkje.png');

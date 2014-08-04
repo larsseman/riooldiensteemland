@@ -67,14 +67,9 @@
 				<div class="Top-h6">
 					<h6>24 uurs service</h6>
 				</div>
-
-				<a class="Contact-mob" href="tel:0332999968">
-					<img src="<?php echo get_stylesheet_directory_uri() ;?>/img/svg's/telefoon.svg">				  
-				  <p>033 - 299 99 68</p>
-				</a>
-	             
+ 	             
 				<a class="Contact-mob" href="tel:0653622040">
-					<img src="<?php echo get_stylesheet_directory_uri() ;?>/img/svg's/mobiel.svg">
+					<img src="<?php echo get_stylesheet_directory_uri() ;?>/img/svg's/telefoon.svg">
 				  <p>06 - 536 22 040</p>
 				</a>
 			</div><!-- Top-contact -->
@@ -96,15 +91,9 @@
 		    <?php include 'includes/navigation.php'; ?>
 		    
 		    <div class="Mob-contact-ico">
-				<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0332999968">
+				<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0653622040">
 					<svg class="Icon Icon--inline" viewBox="0 0 128 128">
 						<use xlink:href="#icon-phone"></use>
-					</svg>
-				</a>
-			
-				<a class="Button Button--transparent u-textInverted u-noLine tel2svg" href="tel:0653622040">
-					<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-						<use xlink:href="#icon-mobile"></use>
 					</svg>
 				</a>
 			
