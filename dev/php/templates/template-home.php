@@ -102,16 +102,17 @@ Template Name: Homepage
 
 						<div class="u-gridCol4 Coll-4">
 							<h3 class="vis-hidden">Specialisme</h3>
-							<p>Een verstopping of storing komt altijd onverwacht en altijd ongelegen. Daarom hebben wij 24 uur per dag en 7 dagen per week een servicemonteur beschikbaar. Deze monteur beschikt over een bus met hogedrukunit, frees- en veerapparatuur, handgereedschap alsmede materialen ten behoeve van het verrichten van kleine (nood)reparaties.</p>
+							<p>Een verstopping of storing komt altijd onverwacht en altijd ongelegen. Daarom hebben wij 24/7 een servicemonteur beschikbaar. Deze monteur beschikt over een bus met hogedrukunit, frees- en veerapparatuur, handgereedschap alsmede materialen ten behoeve van het verrichten van kleine (nood)reparaties.</p>
 						</div>
 					</div><!-- u-gridContainer -->
 				</div>
 				
 				<div class="u-gridContainer">				
 					<h3>Hulpdienst</h3>
-					<p>Vragen over rioleringen, verstoppingen, het onderhoud en dergelijke kunnen altijd via onze telefonische hulpdienst beantwoord worden. Gebruik hiervoor het telefoonnummer.</p>
+					<p>Vragen over rioleringen, verstoppingen, het onderhoud en dergelijke kunnen altijd via onze telefonische hulpdienst beantwoord worden. Gebruik hiervoor het telefoonnummer 06 - 536 22 040.</p>
 				</div><!-- u-gridContainer -->
 				
+<!--
 				
 				<div class="red-bg extra-div">
 					<div class="mobiel-pinnen-div">
@@ -126,6 +127,7 @@ Template Name: Homepage
 					</a>
 				</div>				
 				
+-->
 				<div class="u-gridContainer">
 					<?php the_content(); ?>
 				</div>
