@@ -63,7 +63,7 @@
 	
 	.Top-contact {
 		float: right;
-		width: 250px;
+		width: 317px;
 		padding: 0 30px;
 		margin-top: 20px;
 		
@@ -73,7 +73,6 @@
 			font-size: 20px;
 			line-height: 20px;
 			margin: 20px 0 13px;
-		
 		}
 		
 		a,p {
@@ -98,11 +97,16 @@
 		.Contact-mob {
 			position: relative;
 			line-height: 20px;
+			font-size: 22px !important;
 			img {
 				position: absolute;
-				max-width: 45px;
-				top: -2px;
-				left: -45px;
+				max-width: 23px;
+				top: 2px;
+				left: 33px;
+			}
+			p {
+				line-height: 29px;
+				font-size: 17px;
 			}
 		}
 	}

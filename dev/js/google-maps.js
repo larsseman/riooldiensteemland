@@ -26,4 +26,6 @@ function codeAddress(address) {
     }
   });
 }
-google.maps.event.addDomListener(window, 'load', initialize);
+if (document.location.pathname == '/contact/') {
+  google.maps.event.addDomListener(window, 'load', initialize);
+}

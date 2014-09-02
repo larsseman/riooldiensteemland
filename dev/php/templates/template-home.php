@@ -21,7 +21,7 @@ Template Name: Homepage
 						<div class="u-gridCol5">								
 							<div class="points-box">
 								<ul class="Usp-list">
-									<li class="icon check smaller">De verstopping word vaak dezelfde dag nog verholpen</li>
+									<li class="icon check">Verstopping zelfde dag verholpen</li>
 									<li class="icon check">Meer dan 20 jaar een begrip in de regio</li>
 									<li class="icon check">Geen voorrijkosten bij verstoppingen</li>
 									<li class="icon check">Gebruik van professioneel apparatuur</li>
@@ -31,8 +31,6 @@ Template Name: Homepage
 									<li class="icon check">Laten alles schoon achter</li>
 									<li class="icon check">Mobiel pinnen mogelijk</li>
 									<li class="icon check">VCA gecertificeerd</li>
-
-
 								</ul>
 							</div>
 
@@ -55,7 +53,7 @@ Template Name: Homepage
 						<div class="u-gridCol4">
 							<div class="header-contact">
 								<h3>Heeft u nog vragen?</h3>
-								<p>Neem dan hier vrijblijven contact op</p>
+								<p>Neem dan hier vrijblijvend contact op</p>
 								<a href="/contact/">
 									<div class="Button meer-info">
 										Contact
@@ -76,13 +74,20 @@ Template Name: Homepage
 				
 				<div class="red-bg more">
 					<div class="u-gridContainer">
-						<h3>Bel voor al u vragen en/of spoedgevallen</h3>
+						<h3>Bel voor al uw vragen en/of spoedgevallen</h3>
 						<div class="span-mid-align">				             
+							<a class="Button Button--transparent u-textInverted u-noLine mar-left-10" href="tel:0332999968">
+							  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+								<use xlink:href="#icon-phone"></use>
+							  </svg> 
+							  <span>033 - 299 99 68</span>
+							</a>
+							<br/>
 							<a class="Button Button--transparent u-textInverted u-noLine mar-left-10" href="tel:0653622040">
 							  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
 								<use xlink:href="#icon-mobile"></use>
-							  </svg>
-							  <span>06 - 536 22 040</span>
+							  </svg> 
+							  <span>06 - 536 22 040 (spoed)</span>
 							</a>
 						</div>
 					</div>
@@ -107,9 +112,21 @@ Template Name: Homepage
 					</div><!-- u-gridContainer -->
 				</div>
 				
-				<div class="u-gridContainer">				
-					<h3>Hulpdienst</h3>
-					<p>Vragen over rioleringen, verstoppingen, het onderhoud en dergelijke kunnen altijd via onze telefonische hulpdienst beantwoord worden. Gebruik hiervoor het telefoonnummer 06 - 536 22 040.</p>
+				<div class="u-gridContainer">		
+					<div class="u-gridRow">
+						<div class="u-gridCol8">
+							<h3>Hulpdienst</h3>
+							<p>Vragen over rioleringen, verstoppingen, het onderhoud en dergelijke kunnen 
+							   altijd via onze telefonische hulpdienst beantwoord worden. 
+								Gebruik hiervoor het telefoonnummer 
+									<a href="tel:0332999968">033 - 299 99 68</a>, 
+									of <a href="tel:0653622040" >06 - 536 22 040 (spoed)</a>.
+							</p>
+						</div>
+						<div class="u-gridCol4" style="margin-top: 15px; margin-bottom: 5px;">
+							<img src="<?php echo get_stylesheet_directory_uri();?>/img/kantoor1.jpg" />
+						</div>
+					</div>
 				</div><!-- u-gridContainer -->
 				
 <!--

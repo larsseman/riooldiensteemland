@@ -9,178 +9,184 @@
 
 .Content-entry {/*----------- Content-entry ---------*/
 
-p {
-	font-weight: 200;
-}
-
-.h3-home {
-	font-size: 16px;
-}
-
-
-
-
-.Home-bulletpoints {
-	background-color: $c-grey;
-	height: auto;
-	padding-top: 40px;
-	padding-bottom: 15px;
-
-	h3, span {
-		color: $c-red;
-		line-height: 20px;
-		font-size: 25px;
-		font-weight: 600;
-		margin: 0 0 20px 0;
-
-	}
-}
-.bul-mid h3 {
-	padding-left: 25px;
-}
-
-.bul-mid-img {
-	margin-top: 35px;
-	img {
-		max-width: 200px;
-	}
-}
-
-.bul-right {
-	.Icon.Icon--inline {
-		fill: $c-red ;
-		width: 2em;
-		height: 2em;
-		padding-bottom: 0.65em;
-	}	
-}
-
-.mobiel-pinnen-div {
-	width: 400px;
-	margin: 0 auto;
-	position: relative;
-	img {
-		position: absolute;
-		top: -20px;
-		left: -110px;
-	}
-}
-
-.header-contact {
-	background-color: white;
-	text-align: center;
-	float: right;
-	width: 320px;
-	height: 230px;
-	padding: 35px 25px;
-	margin-top: 30px;
-
 	p {
-		font-weight: 400;
+		font-weight: 200;
+	}
+
+	.h3-home {
+		font-size: 16px;
+	}
+
+	.alignright {
+		float: right;
+	}
+
+	img {
+		margin: 10px !important;
+	}
+
+
+	.Home-bulletpoints {
+		background-color: $c-grey;
+		height: auto;
+		padding-top: 40px;
+		padding-bottom: 15px;
+
+		h3, span {
+			color: $c-red;
+			line-height: 20px;
+			font-size: 25px;
+			font-weight: 600;
+			margin: 0 0 20px 0;
+
+		}
+	}
+	.bul-mid h3 {
+		padding-left: 25px;
+	}
+
+	.bul-mid-img {
+		margin-top: 35px;
+		img {
+			max-width: 200px;
+		}
+	}
+
+	.bul-right {
+		.Icon.Icon--inline {
+			fill: $c-red ;
+			width: 2em;
+			height: 2em;
+			padding-bottom: 0.65em;
+		}	
+	}
+
+	.mobiel-pinnen-div {
+		width: 400px;
+		margin: 0 auto;
+		position: relative;
+		img {
+			position: absolute;
+			top: -20px;
+			left: -110px;
+		}
+	}
+
+	.header-contact {
+		background-color: white;
+		text-align: center;
+		float: right;
+		width: 320px;
+		height: 230px;
+		padding: 35px 25px;
+		margin-top: 30px;
+
+		p {
+			font-weight: 400;
+		}
+
+		.Button.meer-info {
+			color: white;
+			background-color: $c-red;
+			border: 3px solid $c-red;
+			&:hover {
+				background-color: white;
+				color: $c-red;
+				border: 3px solid $c-red;
+				text-decoration: none;
+				
+				-webkit-transition:all 0.2s ease;
+				-moz-transition:all 0.2s ease;
+				-o-transition:all 0.2s ease;
+			}
+			
+			img {
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+		}
+	}
+
+
+
+	.red-bg.more {
+		margin: 35px 0 8px;
+	}
+
+	.red-bg {
+		background-color: $c-red;
+		padding: 10px 0 35px;
+		margin: 35px 0 5px;
+		
+		a:hover {
+			text-decoration: none;
+		}
+		h3 {
+			color: white;
+			text-align: center;
+			font-size: 22px;
+		}
+		span {
+			color: white;
+			font-size: 30px;
+			letter-spacing: 1.5px;
+		}
+		
+		.span-mid-align {
+		text-align: center;		
+			a:hover {
+				opacity: 0.7;
+				
+			}
+			
+			.Icon--inline {
+				height: 2.4em;
+				width: 2.4em;
+				padding-bottom: 0.7px;
+				fill: white;
+				margin-bottom: 9px;
+			}
+		}
+	}
+
+	.grey-bg {
+		background-color: $c-grey;
+		padding: 10px 0 20px;
 	}
 
 	.Button.meer-info {
-		color: white;
-		background-color: $c-red;
-		border: 3px solid $c-red;
-		&:hover {
-			background-color: white;
-			color: $c-red;
-			border: 3px solid $c-red;
-			text-decoration: none;
-			
-			-webkit-transition:all 0.2s ease;
-			-moz-transition:all 0.2s ease;
-			-o-transition:all 0.2s ease;
-		}
-		
-		img {
-			position: absolute;
-			left: 0;
-			top: 0;
-		}
-	}
-}
-
-
-
-.red-bg.more {
-	margin: 35px 0 8px;
-}
-
-.red-bg {
-	background-color: $c-red;
-	padding: 10px 0 35px;
-	margin: 35px 0 5px;
-	
-	a:hover {
-		text-decoration: none;
-	}
-	h3 {
-		color: white;
+		display: block;
+		margin: 20px auto 0;
+		background-color: white;
+		border: 3px solid white;
+		width: 160px;
+		padding: 6px;
 		text-align: center;
-		font-size: 22px;
-	}
-	span {
-		color: white;
-		font-size: 30px;
-		letter-spacing: 1.5px;
-	}
-	
-	.span-mid-align {
-	text-align: center;		
-		a:hover {
-			opacity: 0.7;
-			
-		}
+		font-weight: 600;
 		
-		.Icon--inline {
-			height: 2.4em;
-			width: 2.4em;
-			padding-bottom: 0.7px;
-			fill: white;
-			margin-bottom: 9px;
+		&:hover {
+			border-color: white;
+			color: white;
+			background-color: $c-red;
 		}
 	}
-}
 
-.grey-bg {
-	background-color: $c-grey;
-	padding: 10px 0 20px;
-}
-
-.Button.meer-info {
-	display: block;
-	margin: 20px auto 0;
-	background-color: white;
-	border: 3px solid white;
-	width: 160px;
-	padding: 6px;
-	text-align: center;
-	font-weight: 600;
-	
-	&:hover {
-		border-color: white;
-		color: white;
-		background-color: $c-red;
+	.mar-left-10 {
+		margin-left: 20px;
 	}
-}
-
-.mar-left-10 {
-	margin-left: 20px;
-}
 
 
-.sidebar-contact {
-	padding: 20px;
-	border: 4px solid $c-red;
-	h3 {
-		font-size: 14px;
-	}	
-	&:hover {
-		text-decoration: none !important;
+	.sidebar-contact {
+		padding: 20px;
+		border: 4px solid $c-red;
+		h3 {
+			font-size: 14px;
+		}	
+		&:hover {
+			text-decoration: none !important;
+		}
 	}
-}
 
 }/*----------- Content-entry ---------*/
 

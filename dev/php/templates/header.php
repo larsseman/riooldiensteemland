@@ -35,9 +35,9 @@
     <!-- /build -->
 
     <!-- Wordpress head function -->
-    <?php wp_head(); ?>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<?php wp_head(); ?>
 
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   </head>
   <body <?php body_class(); ?> >
 
@@ -67,11 +67,18 @@
 				<div class="Top-h6">
 					<h6>24 uurs service</h6>
 				</div>
+
+				<a class="Contact-mob" href="tel:0332999968">
+					<img src="<?php echo get_stylesheet_directory_uri() ;?>/img/svg's/telefoon.svg">
+				  <p>033 - 299 99 68&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				</a>
  	             
 				<a class="Contact-mob" href="tel:0653622040">
 					<img src="<?php echo get_stylesheet_directory_uri() ;?>/img/svg's/telefoon.svg">
-				  <p>06 - 536 22 040</p>
-				</a>
+				  <p>06 - 536 22 040 (spoed)</p>
+
+				</a>  
+
 			</div><!-- Top-contact -->
 		
 		</div>

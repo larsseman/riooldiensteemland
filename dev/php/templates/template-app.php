@@ -17,16 +17,16 @@ Template Name: App page
 					
 					<div class="App-wrapper">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/iphone5.png" class="App-iphone" />
-
+						<a href="https://play.google.com/store/apps/details?id=com.wRiooldienstEemalnd">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/googleplay.jpg" class="App-google" />
-
-						<a class="App-down" href="#">Download de app hier</a>
-
+						</a>
+						<a class="App-down" href="https://play.google.com/store/apps/details?id=com.wRiooldienstEemalnd">Download de app hier</a>
+ 
 						<div class="qr-code">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/qr_code.jpg" />
 						</div>
 					</div>
-					<?php  the_content(); ?>
+					<?php  //the_content(); ?>
 					<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 				</article>
 				
