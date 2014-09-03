@@ -17,18 +17,20 @@ Template Name: Contactpage
 				<div class="Content-text">
 
 					<div class="u-gridRow">					
-						<div class="adress u-gridCol4">
+						<div class="adress u-gridCol3">
 							<div class="adress-info">
-								<p>riooldiensteemland</p>
+								<p>Riooldienst Eemland</p>
 								<p>Groeneweg 2</p>
 								<p>3751LE Bunschoten</p>
 								<p>Email: rioolbeheer@amerongen.info</p>
 								<p>Tel: 033 - 299 99 68</p>
 								<p>Tel:  06 - 536 22 040 (spoed)</p>
 							</div>
-	
 						</div>					
-						<div class="adress-map u-gridCol8">
+						<div class="u-gridCol3">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/kantoor2b.jpg" style="margin-top: 0px" />
+						</div>
+						<div class="adress-map u-gridCol6">
 							<div id="map_canvas"></div>
 						</div>
 
